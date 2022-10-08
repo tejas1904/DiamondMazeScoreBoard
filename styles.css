@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  font-family: Calibri;
+  background-image: url('taedm.webp');
+  background-size: 100%;
+  opacity: 0.985;
+}
+.containerA {
+  background-color: #333;
+  padding: 3px;
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+}
+.container {
+  background-color: #333;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.draggable {
+  padding: 1rem;
+  background-color: white;
+  border: 5px solid #333;
+  cursor: move;
+  display: flex;
+  margin: 3px;
+}
+
+.draggable.dragging {
+  opacity: .5;
+}
+
+
+.cardNumber{
+  width: 3%;
+  background: lightblue;
+  font-size: 28px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.gameMaster{
+  width: 22%;
+  background-color: antiquewhite;
+  font-size: 30px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.teamName{
+  width: 15%;
+  background-color:beige;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.captianName{
+  width: 15%;
+  background-color:azure;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 5px;
+}
+.diamonds{
+  width: 5%;
+  background-color: rgb(223, 158, 97);
+  font-size: 30px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.addbtn{
+  color: green;
+  font-size: 18px;
+}
+
+.minusbtn{
+  color: red;
+  font-size: 18px;
+}
+
+.copyBTN{
+  font-size: 30px;
+  border-radius: 10px;
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.copyBTN:hover {
+  background-color: #3e8e41;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}

@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <title>Document</title>
+</head>
+<body>
+  
+  <div class="containerA">
+    <div>
+      <span style="color: gold;font-size: 50px;">The Diamond Maze Scoreboard</span>
+      <span style="color:white;">By Tejas</span>
+    </div>
+    <div></div>
+    <div></div>
+    <div>
+      <button class="copyBTN"id="copyBTN">Copy Scores</button>
+    </div>
+  </div>
+
+
+  <div class="container">
+
+    <div class="draggable" draggable="true">
+      <span class="cardNumber">1</span>
+      <span class="gameMaster"contenteditable="true">Game_Master</span>
+      <span class="captianName"contenteditable="true">Captian_Name</span>
+      <span class="teamName"contenteditable="true">Team_Name</span>
+      <span class="diamonds">0</span>
+      <span style="width: 1%;"></span>
+      <button class="addbtn" onclick="increment(this,1)">+1</button>
+      <button class="addbtn" onclick="increment(this,2)">+2</button>
+      <button class="addbtn" onclick="increment(this,3)">+3</button>
+      <button class="addbtn" onclick="increment(this,4)">+4</button>
+      <span style="width: 1%;"></span>
+      <button class="minusbtn" onclick="decrement(this,1)">-1</button>
+      <button class="minusbtn" onclick="decrement(this,2)">-2</button>
+    </div>
+
+    <div class="draggable" draggable="true">
+      <span class="cardNumber">2</span>
+      <span class="gameMaster"contenteditable="true">Game_Master</span>
+      <span class="captianName"contenteditable="true">Captian_Name</span>
+      <span class="teamName"contenteditable="true">Team_Name</span>
+      <span class="diamonds">0</span>
+      <span style="width: 1%;"></span>
+      <button class="addbtn" onclick="increment(this,1)">+1</button>
+      <button class="addbtn" onclick="increment(this,2)">+2</button>
+      <button class="addbtn" onclick="increment(this,3)">+3</button>
+      <button class="addbtn" onclick="increment(this,4)">+4</button>
+      <span style="width: 1%;"></span>
+      <button class="minusbtn" onclick="decrement(this,1)">-1</button>
+      <button class="minusbtn" onclick="decrement(this,2)">-2</button>
+    </div>
+
+    <div class="draggable" draggable="true">
+      <span class="cardNumber">3</span>
+      <span class="gameMaster"contenteditable="true">Game_Master</span>
+      <span class="captianName"contenteditable="true">Captian_Name</span>
+      <span class="teamName"contenteditable="true">Team_Name</span>
+      <span class="diamonds">0</span>
+      <span style="width: 1%;"></span>
+      <button class="addbtn" onclick="increment(this,1)">+1</button>
+      <button class="addbtn" onclick="increment(this,2)">+2</button>
+      <button class="addbtn" onclick="increment(this,3)">+3</button>
+      <button class="addbtn" onclick="increment(this,4)">+4</button>
+      <span style="width: 1%;"></span>
+      <button class="minusbtn" onclick="decrement(this,1)">-1</button>
+      <button class="minusbtn" onclick="decrement(this,2)">-2</button>
+    </div>
+
+    <div class="draggable" draggable="true">
+      <span class="cardNumber">4</span>
+      <span class="gameMaster"contenteditable="true">Game_Master</span>
+      <span class="captianName"contenteditable="true">Captian_Name</span>
+      <span class="teamName"contenteditable="true">Team_Name</span>
+      <span class="diamonds">0</span>
+      <span style="width: 1%;"></span>
+      <button class="addbtn" onclick="increment(this,1)">+1</button>
+      <button class="addbtn" onclick="increment(this,2)">+2</button>
+      <button class="addbtn" onclick="increment(this,3)">+3</button>
+      <button class="addbtn" onclick="increment(this,4)">+4</button>
+      <span style="width: 1%;"></span>
+      <button class="minusbtn" onclick="decrement(this,1)">-1</button>
+      <button class="minusbtn" onclick="decrement(this,2)">-2</button>
+    </div>
+
+    <div class="draggable" draggable="true">
+      <span class="cardNumber">5</span>
+      <span class="gameMaster"contenteditable="true">Game_Master</span>
+      <span class="captianName"contenteditable="true">Captian_Name</span>
+      <span class="teamName"contenteditable="true">Team_Name</span>
+      <span class="diamonds">0</span>
+      <span style="width: 1%;"></span>
+      <button class="addbtn" onclick="increment(this,1)">+1</button>
+      <button class="addbtn" onclick="increment(this,2)">+2</button>
+      <button class="addbtn" onclick="increment(this,3)">+3</button>
+      <button class="addbtn" onclick="increment(this,4)">+4</button>
+      <span style="width: 1%;"></span>
+      <button class="minusbtn" onclick="decrement(this,1)">-1</button>
+      <button class="minusbtn" onclick="decrement(this,2)">-2</button>
+    </div>
+
+    <div class="draggable" draggable="true">
+      <span class="cardNumber">5</span>
+      <span class="gameMaster"contenteditable="true">Game_Master</span>
+      <span class="captianName"contenteditable="true">Captian_Name</span>
+      <span class="teamName"contenteditable="true">Team_Name</span>
+      <span class="diamonds">0</span>
+      <span style="width: 1%;"></span>
+      <button class="addbtn" onclick="increment(this,1)">+1</button>
+      <button class="addbtn" onclick="increment(this,2)">+2</button>
+      <button class="addbtn" onclick="increment(this,3)">+3</button>
+      <button class="addbtn" onclick="increment(this,4)">+4</button>
+      <span style="width: 1%;"></span>
+      <button class="minusbtn" onclick="decrement(this,1)">-1</button>
+      <button class="minusbtn" onclick="decrement(this,2)">-2</button>
+    </div>
+
+
+    <div class="draggable" draggable="true">
+      <span class="cardNumber">6</span>
+      <span class="gameMaster"contenteditable="true">Game_Master</span>
+      <span class="captianName"contenteditable="true">Captian_Name</span>
+      <span class="teamName"contenteditable="true">Team_Name</span>
+      <span class="diamonds">0</span>
+      <span style="width: 1%;"></span>
+      <button class="addbtn" onclick="increment(this,1)">+1</button>
+      <button class="addbtn" onclick="increment(this,2)">+2</button>
+      <button class="addbtn" onclick="increment(this,3)">+3</button>
+      <button class="addbtn" onclick="increment(this,4)">+4</button>
+      <span style="width: 1%;"></span>
+      <button class="minusbtn" onclick="decrement(this,1)">-1</button>
+      <button class="minusbtn" onclick="decrement(this,2)">-2</button>
+    </div>
+
+
+    <div class="draggable" draggable="true">
+      <span class="cardNumber">7</span>
+      <span class="gameMaster"contenteditable="true">Game_Master</span>
+      <span class="captianName"contenteditable="true">Captian_Name</span>
+      <span class="teamName"contenteditable="true">Team_Name</span>
+      <span class="diamonds">0</span>
+      <span style="width: 1%;"></span>
+      <button class="addbtn" onclick="increment(this,1)">+1</button>
+      <button class="addbtn" onclick="increment(this,2)">+2</button>
+      <button class="addbtn" onclick="increment(this,3)">+3</button>
+      <button class="addbtn" onclick="increment(this,4)">+4</button>
+      <span style="width: 1%;"></span>
+      <button class="minusbtn" onclick="decrement(this,1)">-1</button>
+      <button class="minusbtn" onclick="decrement(this,2)">-2</button>
+    </div>
+
+    <div class="draggable" draggable="true">
+      <span class="cardNumber">8</span>
+      <span class="gameMaster"contenteditable="true">Game_Master</span>
+      <span class="captianName"contenteditable="true">Captian_Name</span>
+      <span class="teamName"contenteditable="true">Team_Name</span>
+      <span class="diamonds">0</span>
+      <span style="width: 1%;"></span>
+      <button class="addbtn" onclick="increment(this,1)">+1</button>
+      <button class="addbtn" onclick="increment(this,2)">+2</button>
+      <button class="addbtn" onclick="increment(this,3)">+3</button>
+      <button class="addbtn" onclick="increment(this,4)">+4</button>
+      <span style="width: 1%;"></span>
+      <button class="minusbtn" onclick="decrement(this,1)">-1</button>
+      <button class="minusbtn" onclick="decrement(this,2)">-2</button>
+    </div>
+
+    <div class="draggable" draggable="true">
+      <span class="cardNumber">9</span>
+      <span class="gameMaster"contenteditable="true">Game_Master</span>
+      <span class="captianName"contenteditable="true">Captian_Name</span>
+      <span class="teamName"contenteditable="true">Team_Name</span>
+      <span class="diamonds">0</span>
+      <span style="width: 1%;"></span>
+      <button class="addbtn" onclick="increment(this,1)">+1</button>
+      <button class="addbtn" onclick="increment(this,2)">+2</button>
+      <button class="addbtn" onclick="increment(this,3)">+3</button>
+      <button class="addbtn" onclick="increment(this,4)">+4</button>
+      <span style="width: 1%;"></span>
+      <button class="minusbtn" onclick="decrement(this,1)">-1</button>
+      <button class="minusbtn" onclick="decrement(this,2)">-2</button>
+    </div>
+
+    <div class="draggable" draggable="true">
+      <span class="cardNumber">10</span>
+      <span class="gameMaster"contenteditable="true">Game_Master</span>
+      <span class="captianName"contenteditable="true">Captian_Name</span>
+      <span class="teamName"contenteditable="true">Team_Name</span>
+      <span class="diamonds">0</span>
+      <span style="width: 1%;"></span>
+      <button class="addbtn" onclick="increment(this,1)">+1</button>
+      <button class="addbtn" onclick="increment(this,2)">+2</button>
+      <button class="addbtn" onclick="increment(this,3)">+3</button>
+      <button class="addbtn" onclick="increment(this,4)">+4</button>
+      <span style="width: 1%;"></span>
+      <button class="minusbtn" onclick="decrement(this,1)">-1</button>
+      <button class="minusbtn" onclick="decrement(this,2)">-2</button>
+    </div>
+
+
+  </div>
+
+
+
+
+</body>
+</html>
